@@ -1,9 +1,8 @@
 const Header = () => {
   return (
-    <div>
-      <div>Jehanne Hodge</div>
-
-      <div>Web Developer</div>
+    <div className="text-center border-b border-slate-300 p-4">
+      <div className="text-2xl font-bold">Jehanne Hodge</div>
+      <div className="text-gray-500">Web Developer</div>
     </div>
   );
 }
