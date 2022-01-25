@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       title: "Project 2",
       desc: "Description of project here",
       linkUrl: "/project2",
-      image: "/app.jpg",
+      image: "/phone.jpg",
     }
   )
   projectMetaDataArray.push(
