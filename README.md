@@ -1,3 +1,6 @@
+This is a small practice portfolio to learn Tailwind css and some Typescript.
+I followed [`this`] (https://www.youtube.com/watch?v=qrBEcLcnPAE&t=43s) youtube tutorial.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
