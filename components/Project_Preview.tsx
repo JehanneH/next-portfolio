@@ -1,22 +1,27 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
-const ProjectPreview = () => {
+interface ProjectPreviewInterface {
+  title: string;
+  desc: string;
+  linkUrl: string;
+  image: string;
+}
 
-  const title: string = "Project 1";
-  const desc: string = "Description of project here";
-  const linkUrl: string = "/project1";
+const ProjectPreview = (props: ProjectPreviewInterface) => {
+
+ 
 
   return (
     <div className="flex gap-4">
       <div className="relative w-24 h-16">
-        <Image src={"/code.jpg"} layout="fill"/>
+        <Image src={props.image} layout="fill"/>
       </div>
       <div className="my-auto">
-        <Link href={linkUrl}>
-        <a className="font-bold underline hover:text-indigo-600">{title}</a>
+        <Link href={props.linkUrl}>
+        <a className="font-bold underline hover:text-indigo-600">{props.title}</a>
         </Link>
-        <div>{desc}</div>
+        <div>{props.desc}</div>
       </div>
     </div>
   );
