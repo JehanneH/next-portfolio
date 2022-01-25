@@ -8,18 +8,16 @@ const Footer = () => {
   return (
     <div className="text-center border-t border-slate-300 p-4 text-slate-400">
       <div>Created by Jehanne Hodge</div>
-      <div className="text-3xl text-slate-300 flex justify-center gap-2  mt-2">
+      <div className="text-3xl text-slate-300 flex justify-center gap-2 mt-2 ">
       <Link href="https://www.linkedin.com/in/jehanne-hodge-8657251b3/">
-        <a target="_blank"><FaLinkedin /></a>
+        <a target="_blank" className="hover:text-indigo-600" ><FaLinkedin /></a>
       </Link>
       <Link href="https://github.com/JehanneH">
-        <a target="_blank"><FaGithub /></a>
+        <a target="_blank" className="hover:text-indigo-600"><FaGithub /></a>
       </Link>
       <Link href="https://www.canva.com/design/DAECeK-dAJ0/QDBrJSeb_zlnDxHSnK_b6g/edit?category=tACZCki4tbY">
-        <a target="_blank"><ImProfile /></a>
+        <a target="_blank" className="hover:text-indigo-600"><ImProfile /></a>
       </Link>
-     
-     
       </div>
     </div>
   );
