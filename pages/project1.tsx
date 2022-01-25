@@ -1,15 +1,21 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
+import projectImage from "../public/code.jpg";
 
-import Profile from '../components/Profile'
-import ProjectPreview from '../components/Project_Preview'
 
 
 const Project1: NextPage = () => {
   return (
     <div>
-       Something about project 1 app here...
+      <Image src={projectImage}/>
+
+    <div className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam mollitia adipisci deleniti ea quis expedita numquam neque earum! Quam delectus magnam a ipsam totam minima quisquam quas, dignissimos sit.</div>
+    <div className="mt-6">
+       <Link href="/">
+        <a className="font-bold underline hover:text-indigo-600">Back</a>
+        </Link>
+    </div>
     </div>
   )
 }
