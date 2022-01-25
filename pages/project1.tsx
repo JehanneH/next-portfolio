@@ -9,7 +9,7 @@ const Project1: NextPage = () => {
   return (
     <div>
       <h1 className="text-xl text-indigo-600 mb-4 font-bold">Project 1</h1>
-      <Image src={projectImage}/>
+      <Image alt="project1-img" src={projectImage}/>
     <div className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam mollitia adipisci deleniti ea quis expedita numquam neque earum! Quam delectus magnam a ipsam totam minima quisquam quas, dignissimos sit.</div>
     <div className="mt-6">
        <Link href="/">
