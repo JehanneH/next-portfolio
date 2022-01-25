@@ -1,7 +1,10 @@
-This is a small practice portfolio to learn Tailwind css and some Typescript.
-I followed [this](https://www.youtube.com/watch?v=qrBEcLcnPAE&t=43s) youtube tutorial.
-Deployed with Vercel [here](https://next-portfolio-psi-sable.vercel.app/)
-As this was a practice portfolio, the project information is just placeholder.
+This is a small practice portfolio to learn Tailwind css and some Typescript, following [this](https://www.youtube.com/watch?v=qrBEcLcnPAE&t=43s) tutorial on youtube.
+
+Deployed with Vercel [here](https://next-portfolio-psi-sable.vercel.app/).
+
+Note: As this is a practice portfolio the project information is just placeholder, but the links in the footer do lead to my pages.
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
