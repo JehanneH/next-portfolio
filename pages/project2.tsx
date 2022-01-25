@@ -1,14 +1,14 @@
 import type { NextPage } from 'next'
 import Image from 'next/image';
 import Link from 'next/link';
-import projectImage from "../public/code.jpg";
+import projectImage from "../public/app.jpg";
 
 
 
 const Project1: NextPage = () => {
   return (
     <div>
-      <h1 className="text-xl text-indigo-600 mb-4 font-bold">Project 1</h1>
+      <h1 className="text-xl text-indigo-600 mb-4 font-bold">Project 2</h1>
       <Image src={projectImage}/>
     <div className="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam mollitia adipisci deleniti ea quis expedita numquam neque earum! Quam delectus magnam a ipsam totam minima quisquam quas, dignissimos sit.</div>
     <div className="mt-6">

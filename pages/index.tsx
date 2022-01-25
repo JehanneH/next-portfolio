@@ -1,20 +1,51 @@
 import type { NextPage } from 'next'
 import Profile from '../components/Profile'
-import ProjectPreview from '../components/Project_Preview'
+import ProjectPreview, { ProjectPreviewInterface } from '../components/Project_Preview'
+
 
 
 const Home: NextPage = () => {
+
+  const projectMetaDataArray = [];
+
+  projectMetaDataArray.push(
+    {
+      title: "Project 1",
+      desc: "Description of project here",
+      linkUrl: "/project1",
+      image: "/code.jpg",
+    }
+  )
+  projectMetaDataArray.push(
+    {
+      title: "Project 2",
+      desc: "Description of project here",
+      linkUrl: "/project2",
+      image: "/app.jpg",
+    }
+  )
+  projectMetaDataArray.push(
+    {
+      title: "Project 3",
+      desc: "Description of project here",
+      linkUrl: "/project3",
+      image: "/graph.jpg",
+    }
+  )
+
+  const projectPreviewElements = [];
   
-  const title: string = "Project 1";
-  const desc: string = "Description of project here";
-  const linkUrl: string = "/project1";
-  const image: string = "/code.jpg";
+  for (let i = 0; i < projectMetaDataArray.length; i++) {
+    const metaData = projectMetaDataArray[i];
+    const element = <ProjectPreview {...metaData} key={i}/>
+    projectPreviewElements.push(element)
+  }
   
   return (
     <div>
       <Profile />
-      <div className="mt-4">
-        <ProjectPreview title={title} desc={desc} linkUrl={linkUrl} image={image}/>
+      <div className="mt-4 flex flex-col gap-4">
+        {projectPreviewElements}
       </div>
     </div>
   )
