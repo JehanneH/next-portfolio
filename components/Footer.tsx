@@ -10,13 +10,13 @@ const Footer = () => {
       <div>Created by Jehanne Hodge</div>
       <div className="text-3xl text-slate-300 flex justify-center gap-2  mt-2">
       <Link href="https://www.linkedin.com/in/jehanne-hodge-8657251b3/">
-        <a><FaLinkedin /></a>
+        <a target="_blank"><FaLinkedin /></a>
       </Link>
       <Link href="https://github.com/JehanneH">
-        <a><FaGithub /></a>
+        <a target="_blank"><FaGithub /></a>
       </Link>
       <Link href="https://www.canva.com/design/DAECeK-dAJ0/QDBrJSeb_zlnDxHSnK_b6g/edit?category=tACZCki4tbY">
-        <a><ImProfile /></a>
+        <a target="_blank"><ImProfile /></a>
       </Link>
      
      
