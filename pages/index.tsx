@@ -10,16 +10,12 @@ import ProjectPreview from '../components/Project_Preview'
 
 const Home: NextPage = () => {
   return (
-    <Layout>
-      <div className="text-slate-700 flex flex-col gap-6">
-        <Header />
-        <Profile />
-        <div>
-          <ProjectPreview />
-        </div>
-        <Footer />
+    <div>
+      <Profile />
+      <div className="mt-4">
+        <ProjectPreview />
       </div>
-    </Layout>
+    </div>
   )
 }
 
