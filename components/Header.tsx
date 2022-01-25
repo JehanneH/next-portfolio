@@ -4,10 +4,8 @@ const Header = () => {
       <div className="text-2xl font-bold text-slate-700">Jehanne Hodge</div>
       <div className="">Web Developer</div>
       <div className="flex justify-center gap-2 text-sm">
-        <div>email</div>
-        <div>github</div>
-        <div>linkedin</div>
-      {/* add icons and links for other conact */}
+        <div>samarahjhodge@gmail.com</div>
+        <div>Montreal, Quebec</div>
       </div>
 
     </div>
